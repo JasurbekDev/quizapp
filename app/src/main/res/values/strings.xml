@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quiz_list">Quiz List</string>
+    <string name="astronomy_quiz">Astronomy Quiz</string>
+    <string name="astronomy_quiz_intro_description">Improve your astronomy skills and upgrade your personal growth</string>
+    <string name="geography_quiz">Geography Quiz</string>
+    <string name="geography_quiz_intro_description">Improve your geography skills and upgrade your personal growth</string>
+    <string name="zoology_quiz">Zoology Quiz</string>
+    <string name="zoology_quiz_intro_description">Improve your zoology skills and upgrade your personal growth</string>
+    <string name="recent_quizzes">Recent Quizzes</string>
+    <string name="astronomy_question_1">What is the closest planet to the Sun?</string>
+    <string name="score">%s%s Score</string>
+    <string name="summary">You answered %s %s and %s of them %s correct.</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="small_circle">small circle</string>
+    <string name="big_circle">big circle</string>
+    <string name="top_background">top background</string>
+</resources>
