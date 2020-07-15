@@ -2,5 +2,11 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#2133A0</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorAccent">#FF5484</color>
+    <color name="textViewHintColor">#999</color>
+    <color name="recent_quizzes_text_color">#202021</color>
+    <color name="questions_layout_background">#F8F9FE</color>
+    <color name="score_text_color">#0BBF29</color>
+    <color name="start_quiz_button_text_color">#7C72FF</color>
+    <color name="quiz_title_text_color">#272829</color>
 </resources>

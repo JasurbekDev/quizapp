@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Quiz App</string>
+    <string name="app_name">Quiz App for Udacity</string>
     <string name="quiz_list">Quiz List</string>
     <string name="astronomy_quiz">Astronomy Quiz</string>
     <string name="astronomy_quiz_intro_description">Improve your astronomy skills and upgrade your personal growth</string>
@@ -15,4 +15,33 @@
     <string name="small_circle">small circle</string>
     <string name="big_circle">big circle</string>
     <string name="top_background">top background</string>
+    <string name="welcome_text">Welcome, %s!</string>
+    <string name="next">Next</string>
+    <string name="cannot_go_back">You cannot go back!</string>
+    <string name="submit">Submit</string>
+    <string name="percentage_sign">%</string>
+    <string name="question">question</string>
+    <string name="questions">questions</string>
+    <string name="is">is</string>
+    <string name="are">are</string>
+    <string name="not_aswered_text">Please choose your answer!</string>
+    <string name="text_entry">Text Entry</string>
+    <string name="single_choice">Single Choice</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="astronomy">Astronomy</string>
+    <string name="geography">Geography</string>
+    <string name="zoology">Zoology</string>
+    <string name="type_your_name">Type Your Name</string>
+    <string name="ok">OK</string>
+    <string name="curved_background_image">Curved Background Image</string>
+    <string name="back_arrow">Back Arrow</string>
+    <string name="quiz_text">Quiz</string>
+    <string name="type_your_answer_here">Type your answer here</string>
+    <string name="finished_image">Finished Image</string>
+    <string name="congrats">Congrats!</string>
+    <string name="successful_completion_text">Your quiz is completed successfully.</string>
+    <string name="exam_picture">Exam Picture</string>
+    <string name="curved_bottom_background_image">Curved Bottom Background Image</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="start">Start</string>
 </resources>

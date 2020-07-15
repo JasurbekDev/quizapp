@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,10 +7,11 @@
     tools:context=".QuizIntroActivity">
 
     <ImageView
-        android:layout_width="300dp"
+        android:layout_width="@dimen/exam_picture_width"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
         android:layout_weight="5"
+        android:contentDescription="@string/exam_picture"
         android:src="@drawable/exam_pic" />
 
     <RelativeLayout
@@ -22,54 +22,55 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/curved_bottom_background_image_margin_bottom"
+            android:contentDescription="@string/curved_bottom_background_image"
             android:scaleType="centerCrop"
-            android:layout_marginBottom="-70dp"
             android:src="@drawable/bottom_curved_bg" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/layout_horizontal_margin"
+            android:layout_marginRight="@dimen/layout_horizontal_margin"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/astronomy_quiz_intro_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#ffffff"
-                android:textAlignment="center"
-                android:textSize="30sp"
                 android:fontFamily="@font/montserratalternates_bold"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/astronomy_quiz_intro_title_text_size" />
 
             <TextView
                 android:id="@+id/astronomy_quiz_intro_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#ffffff"
+                android:layout_marginTop="@dimen/astronomy_quiz_intro_description_margin_top"
                 android:fontFamily="@font/montserratalternates_regular"
+                android:gravity="center_horizontal"
                 android:textAlignment="center"
-                android:textSize="16sp"
-                android:layout_marginTop="20dp"
-                android:gravity="center_horizontal" />
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/astronomy_quiz_intro_description_text_size" />
 
             <Button
                 android:id="@+id/start_quiz_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAllCaps="false"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="30dp"
-                android:textColor="#7C72FF"
-                android:textSize="18sp"
-                android:width="250dp"
-                android:height="55dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/start_quiz_button_margin_top"
+                android:layout_marginBottom="@dimen/start_quiz_button_margin_bottom"
+                android:width="@dimen/start_quiz_button_width"
+                android:height="@dimen/start_quiz_button_height"
                 android:background="@drawable/start_quiz_button"
-                android:text="Start Quiz" />
+                android:text="@string/start_quiz"
+                android:textAllCaps="false"
+                android:textColor="@color/start_quiz_button_text_color"
+                android:textSize="@dimen/start_quiz_button_text_size" />
 
         </LinearLayout>
 

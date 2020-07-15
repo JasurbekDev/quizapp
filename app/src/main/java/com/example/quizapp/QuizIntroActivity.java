@@ -25,12 +25,10 @@ public class QuizIntroActivity extends AppCompatActivity {
         startQuizButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(QuizIntroActivity.this, AstronomyQuizFirstActivity.class);
+                Intent i = new Intent(QuizIntroActivity.this, QuestionsLayoutActivity.class);
                 startActivity(i);
             }
         });
-
-
     }
 
     public void setTitle() {
@@ -42,5 +40,4 @@ public class QuizIntroActivity extends AppCompatActivity {
         TextView quizTitle = findViewById(R.id.astronomy_quiz_intro_description);
         quizTitle.setText(description);
     }
-
 }
